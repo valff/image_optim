@@ -38,7 +38,11 @@ matrix:
   include:
     - env: RAILS_VERSION='~> 3.2'
       rvm: default
-    - env: RAILS_VERSION='~> 4.0'
+    - env: RAILS_VERSION='~> 4.0.0'
+      rvm: default
+    - env: RAILS_VERSION='~> 4.1.0'
+      rvm: default
+    - env: RAILS_VERSION='~> 4.2.0'
       rvm: default
     - env: RUBOCOP=true
       rvm: default
